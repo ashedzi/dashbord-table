@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Ashedzi Solomon">
+        <meta name="description" content="My new cool project">
+        <meta name="keywords" content="web development, html, css, javascript, winnipeg, canada">
+        <title>Dashboard with table</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+        <link rel="stylesheet" href="./assets/css/main.css" media="all" >
+    </head>
+    <body>
+        <header>
+            <div class="container flex space-between">
+                <div class="flex gap-40">
+                    <div class="title">
+                        <h1>Dashboard</h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex center">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+        </header>
+        <main class="flex center">
+            <div class="container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Data type</th>
+                            <th>Total</th>
+                            <th>Last 7 days</th>
+                            <th>Latest record</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="letter-u flex center">U</div>
+                            </td>
+                            <td>Registered users</td>
+                            <td>138</td>
+                            <td>9</td>
+                            <td>May 7</td>
+                            <td><a href="#" class="button">Show more</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="letter-a flex center">A</div>
+                            </td>
+                            <td>Published articles</td>
+                            <td>79</td>
+                            <td>3</td>
+                            <td>May 13</td>
+                            <td><a href="#" class="button">Show more</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="letter-c flex center">C</div>
+                            </td>
+                            <td>Authors</td>
+                            <td>21</td>
+                            <td>1</td>
+                            <td>Apr 12</td>
+                            <td><a href="#" class="button">Show more</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="letter-m flex center">M</div>
+                            </td>
+                            <td>Messages</td>
+                            <td>12</td>
+                            <td>2</td>
+                            <td>May 21</td>
+                            <td><a href="#" class="button">Show more</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="letter-v flex center">V</div>
+                            </td>
+                            <td>Visits</td>
+                            <td>895</td>
+                            <td>46</td>
+                            <td>May 22</td>
+                            <td><a href="#" class="button">Show more</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </body>
+</html>
